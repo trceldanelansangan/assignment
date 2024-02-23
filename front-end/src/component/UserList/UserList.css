@@ -1,0 +1,48 @@
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex > div {
+    max-width: 200px;
+    margin: 0 1rem 2rem 1rem;
+    text-align: center;
+    word-break: break-all;
+}
+
+img {
+    display: inline-block;
+    max-width: 100%;
+}
+
+.apiMessageContainer {
+    display: flex;
+    justify-content: center;
+    padding: 0 20px;
+}
+  
+.usersErrorMessage {
+    background-color: #ffbbbb;
+    padding: 20px 30px;
+    border: 2px solid red;
+    border-radius: 10px;
+    width: max-content;
+}
+
+.apiMessage {
+    border-radius: 10px;
+    width: max-content;
+    padding: 20px 30px;
+}
+
+.errorMessage {
+    border: 2px solid red;
+    background-color: #ffbbbb;
+}
+
+.infoMessage {
+    border: 2px solid #d1d139;
+    background-color: #fffce2;
+}
