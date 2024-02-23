@@ -1,4 +1,4 @@
-import { useContext } from "react";
+import { memo, useContext } from "react";
 import noImageAvailable from "../../assets/no_image_available.jpeg"
 import "./UserList.css"
 import { UserContext } from "../../store/userContext";
@@ -58,4 +58,4 @@ function UserList({
   )
 }
 
-export default UserList
+export default memo(UserList)
